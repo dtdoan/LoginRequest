@@ -47,13 +47,7 @@ public class MainActivity extends Activity {
         txtUsername.requestFocus();
         
     }
-       /* btnLogin.setOnClickListener(new OnClickListener() {
 
-		    @Override
-		    public void onClick(View v) {
-		      	 attemptLogin(v);	    	  		 
-		    }
-        */
 		     /** Called when the user clicks the Login button */
 		    public void attemptLogin(View v) {
 		    	 EditText newUsername = (EditText) findViewById(R.id.txtusername);
